@@ -65,15 +65,29 @@ section.normal {
 
 section.imagem {
     background-color:#cbb39ead;
-    color: white;   
+    color: white;  
+    box-shadow: 6px 6px 13px 0px black; 
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.511);
+    
 }
 
+section#img01 {
+    background-image: url(../imagens/1000_F_486094744_3s8ELoIRcGAjiNDR6uvXy0OfeGy1Q0ci.jpg);
+    background-position:  center;
+    background-size:cover;
+}
+
+section#img02 {
+    background-image: url(../imagens/istockphoto-1331842611-1024x1024.jpg);
+    background-size: cover;
+    background-position: center center;
+}
 footer {
     background-image: linear-gradient(to top, #cbb39e, #c6b3a3);
     font-family: "Montserrat", sans-serif;
